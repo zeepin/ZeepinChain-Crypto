@@ -29,7 +29,7 @@ import (
 
 	"github.com/zeepin/ZeepinChain-Crypto/ec"
 	"github.com/zeepin/ZeepinChain-Crypto/keypair"
-	"github.com/imZhuFei/zeepin/core/types"
+	"github.com/ZeepinChain/zeepin/core/types"
 )
 
 type ecdsaTestCase struct {

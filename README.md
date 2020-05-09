@@ -1,6 +1,6 @@
-# Ontology Crypto
+# ZeepinChain Crypto
 
-Cryptography Library for Ontology Network
+Cryptography Library for ZeepinChain Network
 
 # Usage
 ## Key pair
@@ -8,7 +8,7 @@ Cryptography Library for Ontology Network
 Generate a key pair:
 
 ```go
-import "github.com/zeepin/zeepinchain-crypto/keypair"
+import "github.com/zeepin/ZeepinChain-Crypto/keypair"
 
 // Generate key pair
 private, public, err := keypair.GenerateKeyPair(keypair.PK_ECDSA, keypair.P256)
@@ -66,7 +66,7 @@ To verify a signature, just input the public key as well as the signature with
 the original message.
 
 ```go
-import "github.com/zeepin/zeepinchain-crypto/signature"
+import "github.com/zeepin/ZeepinChain-Crypto/signature"
 
 // Generate signature for @msg using private key @private
 sig, err := signature.Sign(signature.SHA256withECDSA, private, msg, nil)
@@ -87,4 +87,4 @@ sig, err = signature.Deserialize(buf)
 
 # License
 
-Ontology Crypto is under LGPL v3.0 license. See [LICENSE](LICENSE) for details.
+ZeepinChain Crypto is under LGPL v3.0 license. See [LICENSE](LICENSE) for details.
